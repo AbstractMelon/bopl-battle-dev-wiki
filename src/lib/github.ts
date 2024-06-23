@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export async function getWikiPage(slug: string): Promise<string> {
     const repoOwner = "abstractmelon";
     const repoName = "bopl-battle-dev-wiki";
